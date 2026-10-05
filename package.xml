@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_clion_smoke</name>
+  <version>0.1.0</version>
+  <description>Minimal ROS 2 C++ package for validating the local CLion and colcon setup.</description>
+  <maintainer email="matteo.mascellaro@gmail.com">Matteo</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

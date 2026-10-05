@@ -1,0 +1,25 @@
+# ROS 2 / colcon outputs (only ignored when generated inside this repository)
+/build/
+/install/
+/log/
+
+# CMake and build systems
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+Testing/
+
+# CLion and JetBrains local project state
+.idea/
+*.iml
+
+# Common editor / operating-system files
+.DS_Store
+Thumbs.db
+*~
+
+# Per-machine CMake/CLion ROS configuration
+CMakeUserPresets.json
